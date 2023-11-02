@@ -74,6 +74,8 @@ while (true)
     {
         // Əməliyyat tamamlandı mesajı verilir
         Console.WriteLine("Əməliyyat tamamlandı.");
+        Thread.Sleep(10000);
+        Console.Clear();
     }
 
     // İstifadəçiyə davam etmək istəyib-istəmədiyi soruşulur
