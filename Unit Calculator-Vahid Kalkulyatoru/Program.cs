@@ -34,27 +34,35 @@ while (true)
         // İstifadəçinin seçimini əsasında müvafiq funksiyaya yönəldirik
         switch (secim)
         {
+                //Cm To Meters
             case 1:
                 ConvertCmToMeters();
                 break;
+                //Meters To Cm
             case 2:
                 ConvertMetersToCm();
                 break;
+                //Cm To Mm
             case 3:
                 ConvertCmToMm();
                 break;
+                //Celsius To Fahrenheit
             case 4:
                 ConvertCelsiusToFahrenheit();
                 break;
+                //Fahrenheit To Celsius
             case 5:
                 ConvertFahrenheitToCelsius();
                 break;
+                //Kq To Ton
             case 6:
                 ConvertKqToTon();
                 break;
+                //Ton To Kq
             case 7:
                 ConvertTonToKq();
                 break;
+                //Exit
             case 8:
                 // Proqramdan çıxış etmək üçün "return" istifadə edirik
                 Console.WriteLine("Program bağlandı.");
@@ -74,7 +82,7 @@ while (true)
     {
         // Əməliyyat tamamlandı mesajı verilir
         Console.WriteLine("Əməliyyat tamamlandı.");
-        Thread.Sleep(10000);
+        Thread.Sleep(7000);
         Console.Clear();
     }
 
